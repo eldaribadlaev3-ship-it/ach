@@ -1,0 +1,21 @@
+name: CustomAchievements
+version: '1.0.0'
+main: ru.customachievements.CustomAchievementsPlugin
+api-version: '1.21'
+depend: [Vault]
+authors: [CustomDev]
+description: Система из 200 достижений с экономикой Vault и GUI-редактором для Purpur
+
+commands:
+  achievements:
+    description: Открыть меню достижений или панель администратора
+    aliases: [ach, достижения, ачивки]
+    usage: /achievements [admin|reload]
+
+permissions:
+  customachievements.use:
+    description: Доступ к меню достижений
+    default: true
+  customachievements.admin:
+    description: Доступ к админ-панели редактирования достижений
+    default: op
