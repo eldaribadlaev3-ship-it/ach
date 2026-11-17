@@ -149,7 +149,7 @@ public class PlayerDataManager {
 
         String msg = "<gradient:#FFD700:#FFA500><bold>★ ДОСТИЖЕНИЕ ВЫПОЛНЕНО!</bold></gradient> "
                 + "<gray>Вы выполнили достижение </gray>"
-                + achievement.getCategory().getColorTag() + "<bold>[" + achievement.getName() + "]</bold></color>"
+                + achievement.getCategory().getColorTag() + "<bold>[" + achievement.getName() + "]</bold>"
                 + "<gray>! Откройте </gray><yellow><click:run_command:'/ach'><hover:show_text:'<green>Нажмите, чтобы открыть меню'>/ach</hover></click></yellow>"
                 + "<gray>, чтобы забрать награду: </gray><gold><bold>" + formattedReward + "</bold></gold>";
 
